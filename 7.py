@@ -5,8 +5,8 @@ class Solution(object):
         :rtype: int
         """
         sing = -1 if x<0 else 1
-        absv = abs(x)
-        rev = int(str(absv)[::-1])
+        absvalue = abs(x)
+        rev = int(str(absvalue)[::-1])
         
         if rev>2**31 or rev<-2**31:
             return 0
