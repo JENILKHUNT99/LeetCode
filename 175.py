@@ -8,6 +8,7 @@ SELECT
 FROM Person p
 LEFT JOIN Address a ON p.personId = a.personId;
 """
+
 #Python:(Pandas)
 '''
 import pandas as pd
