@@ -1,9 +1,9 @@
 #MySql:
 """
-Select 
+SELECT 
     Max(salary) as SecondHighestSalary 
-from Employee 
-where salary < (select max(salary) from Employee);
+FROM Employee 
+WHERE salary < (select max(salary) from Employee);
 """
 #Python:(Pandas)
 '''
