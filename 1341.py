@@ -15,8 +15,9 @@ JOIN MovieRating AS MR ON MR.movie_id=M.movie_id
 WHERE MR.created_at BETWEEN '2020-02-01' AND '2020-02-29'
 GROUP BY M.title
 ORDER BY AVG(MR.rating) DESC , M.title
-LIMIT 1)
+LIMIT 1);
 '''
+
 #python(Pandas):
 '''
 
